@@ -1,0 +1,42 @@
+name: evaluacion3_flutter
+description: "App de entregas con foto y GPS"
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos de iOS
+  cupertino_icons: ^1.0.8
+
+  # API REST + autenticación
+  http: ^0.13.6
+  flutter_secure_storage: ^8.0.0
+
+  # Gestión de estado (Provider)
+  provider: ^6.1.2
+
+  # GPS / Geolocalización
+  geolocator: ^9.0.2
+
+  # Cámara y galería
+  image_picker: ^1.0.7
+
+  # Mapas
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Buenas prácticas y linting
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
